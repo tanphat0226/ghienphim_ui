@@ -8,10 +8,10 @@ const SearchBar = () => {
     setQuery(e.target.value)
   }
 
-  const handleSearch = () => {
-    // Implement search functionality here
-    console.log('Searching for:', query)
-  }
+  // const handleSearch = () => {
+  //   // Implement search functionality here
+  //   console.log('Searching for:', query)
+  // }
 
   return (
     <div className='relative flex h-9 items-center focus-within:ring-coral-400 md:min-w-48'>

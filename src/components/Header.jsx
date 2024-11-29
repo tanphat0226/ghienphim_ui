@@ -5,7 +5,7 @@ import SearchBar from './SearchBar'
 
 const Header = () => {
   return (
-    <header className='bg-zinc-800'>
+    <header className='bg-slate-900'>
       <div className='flex w-full items-center justify-between px-2 py-2 md:mx-auto xl:max-w-screen-xl'>
         <Logo />
         <Navbar />
